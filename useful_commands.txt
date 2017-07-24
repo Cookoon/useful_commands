@@ -1,0 +1,26 @@
+Mettre à jour la branche principale (master)
+! Il faut etre sur master avant d'executer cette commande
+$ git pull origin master
+
+Créer une nouvelle branche
+! Il faut etre sur master avant d'executer cette commande
+$ git checkout -b <Nom de la nouvelle branche>
+
+Voir les fichiers modifiés depuis le dernier commit
+$ git status
+
+Voir les différences pour chaque fichier depuis le dernier commit
+$ git diff
+
+Ajouter un fichier pour git
+$ git add <chemin du fichier>
+# add . pour ajouter l'ensemble des modifs
+
+Valider le commit
+$ git commit -m "<Message explicatif>"
+
+Envoyer les modification sur Github
+$ git push origin <nom de la branche>
+
+Ouvrir une fenetre de navigation sur Github depuis le terminal
+$ hub browse
