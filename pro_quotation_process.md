@@ -1,46 +1,60 @@
-À la réception d'une nouvelle demande de devis
+# Réception d'une nouvelle demande de devis
 
-# images slack
+![new request](images/pro_quote/new_request.png)
 
-Se connecter à Forest Admin
+### Actions
+  1. Se connecter à Forest Admin
+  - Se rendre sur la page de la demande
 
-Se rendre sur la page de la demande
-  - Data > Pro Quotes > Requested
+    `Data(1) > Pro Quotes(2)`
 
-#images index
+    ![quote index](images/pro_quote/quote_index.png)
 
-Sur une demande de devis (Pro Quote)
+  - cliquer sur une demande de devis (Pro Quote)
+
   - s'assurer d'être sur l'onglet 'détails'
+
   - cliquer sur 'Actions' > 'Create Draft Reservation'
 
-# images show
+  ![quote show](images/pro_quote/quote_show.png)
 
-Se rendre sur 'Pro Reservations', le devis créé devrait se trouver en haut de la liste avec le status 'Draft'
+  - Se rendre sur 'Pro Reservations', le devis créé devrait se trouver en haut de la liste avec le status 'Draft'
 
-# photos index
+  ![reservations index](images/pro_quote/reservations_index.png)
 
-Il est alors possible d'éditer cette proposition, et/ou d'y ajouter des services
+  - éditer la proposition et/ou ajouter des services
 
-Une fois la proposition construite, cliquer sur 'Actions' > 'Propose Réservation'
-Cela a pour effet de passer la proposition en status 'proposed' + d'envoyer un mail au client.
+  - Une fois la proposition construite, cliquer sur 'Actions' > 'Propose Réservation'
 
-Attention : Ne pas éditer le status de la réservation, car le mail de notification ne partirais pas.
+  _Cela a pour effet de passer la proposition en status 'proposed' + d'envoyer un mail au client._
 
-Fin du premier cycle de construction
+  __Attention : Ne pas éditer le status de la réservation, car le mail de notification ne partirais pas.__
+
+  ![propose reservation](images/pro_quote/propose_reservation.png)
+
+### Fin du premier cycle
+Le client a reçu un mail avec sa proposition
 
 
-Si le client demande des modification un message de notification apparait dans Slack
+# Réception d'une demande de modification
 
-# photos requested
+ ![modification request](images/pro_quote/modification_request.png)
 
-Il faut alors se rendre à nouveau dans l'espace Admin sur 'Pro Reservations'
-La réservation a maintenant le status 'modification_requested'
+### Actions
 
-# photo status requested
+ 1. Se rendre à nouveau dans l'espace Admin sur 'Pro Reservations'
+La réservation a maintenant le status `modification_requested`
 
-Attention il ne faut pas éditer cette reservation mais en créer une autre avec l'action 'Duplicate reservation as Draft'
+  ![modification requested](images/pro_quote/modification_requested.png)       
 
-Retourner sur l'index des propositions ('Pro Reservations'), la nouvelle proposition apparait alors
-au dessus avec à nouveau le status 'Draft'
+  __Attention il ne faut pas éditer cette reservation mais en créer une autre avec l'action 'Duplicate Reservation as Draft'__
+
+  ![duplicate as draft](images/pro_quote/duplicate_as_draft.png)
+
+ - Retourner sur l'index des propositions ('Pro Reservations')
+
+  la nouvelle proposition apparait alors au dessus avec à nouveau le status 'Draft'
+
+  ![new draft](images/pro_quote/new_draft.png)
 
 Le process reprend alors à l'etape 2?, éditer la proposition jusqu'à satisfaction ensuite cliquer sur 'Actions' > 'Propose Réservation'
