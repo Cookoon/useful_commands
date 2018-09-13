@@ -26,7 +26,7 @@ Ouvrir une fenetre de navigation sur Github depuis le terminal
 $ hub browse
 
 
-EXEMPLE : 
+EXEMPLE :
 
 ➜  cookoon_web git:(front-landingpage) ✗ git add .                                                  [2.4.1]
 ➜  cookoon_web git:(front-landingpage) ✗ git commit -m "change minor design for landing page"       [2.4.1]
@@ -43,5 +43,3 @@ remote: Resolving deltas: 100% (8/8), completed with 8 local objects.
 To github.com:Cookoon/cookoon_web.git
  * [new branch]      front-landingpage -> front-landingpage
 ➜  cookoon_web git:(front-landingpage) hub browse                                                   [2.4.1]
-/usr/local/opt/rbenv/versions/2.4.1/lib/ruby/gems/2.4.0/gems/hub-1.12.4/lib/hub/speedy_stdlib.rb:103: warning: constant ::Fixnum is deprecated
-➜  cookoon_web git:(front-landingpage)   
